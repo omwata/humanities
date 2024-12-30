@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles1.css" type="text/css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="title-container">
+            <h1>School of Information Technology for Defence Systems</h1>
+            <p>Humanities Department</p>
+        </div>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li><a href="index1.html">Home</a></li>
+            <li><a href="about1.html">About</a></li>
+            <li><a href="academics1.html">Academics</a></li>
+            <li><a href="contact1.html" class="active">Contact Us</a></li>
+            <li><a href="login1.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <main id="content">
+        <h2>Contact Us</h2>
+        <p>If you have any questions about our programs or Department, please feel free to contact us. Our office hours are Monday through Friday, 8:00 am to 5:00 pm. You can reach us by phone, email, or in person. We look forward to hearing from you!</p>
+        
+        <h3>Contact Information</h3>
+        <p><strong>Phone:</strong> 0200-555-5555</p>
+        <p><strong>Email:</strong> <a href="mailto:humanitiesdpt@dmail.com">humanitiesdpt@ymail.com</a></p>
+
+        <h3>Location</h3>
+        <p>Defence Forces Technical College, Humanities Department</p>
+        <p>Airport North Road, Embakasi, Nairobi, Kenya</p>
+        
+        <h3>Send Us a Message</h3>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Your Email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; 2024 School of Information Technology for Defence Systems, Humanities Department. All rights reserved.</p>
+    </footer>
+</body>
+</html>
